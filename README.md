@@ -4,6 +4,9 @@ A comprehensive end-to-end machine learning project that predicts customer churn
 
 ---
 
+[![Open Bank Churn Predictor App](https://img.shields.io/badge/Streamlit-App-green?style=for-the-badge)](https://bank-customer-churn-prediction-ghihtim5n7vehmyhrredgd.streamlit.app/)
+
+
 ## 📌 Problem Statement
 
 Customer churn is a major challenge for banks, as acquiring new customers is significantly more expensive than retaining existing ones. This project aims to **predict whether a customer will leave the bank (churn) based on their demographic and account-related information**, enabling proactive customer retention interventions.
@@ -322,13 +325,11 @@ The app will open in your browser at `http://localhost:8501`
 ## 🛠️ Requirements
 
 ```
-pandas==1.5.0
-numpy==1.23.0
-scikit-learn==1.1.0
-tensorflow==2.11.0
-keras==2.11.0
-keras-tuner==1.1.0
-imbalanced-learn==0.9.0
+streamlit==1.32.0
+pandas>=2.0.0
+numpy>=1.21.0
+tensorflow>=2.10.0
+scikit-learn>=1.0.0
 matplotlib==3.6.0
 seaborn==0.12.0
 plotly==5.11.0
@@ -347,7 +348,7 @@ pip install -r requirements.txt
 
 For questions, suggestions, or issues:
 - Create an issue on GitHub
-- Contact: [itsofficialworkforss.com]
+- Contact: [itsofficialworkforss@gmail.com]
 - LinkedIn: [www.linkedin.com/in/sagar-singh-10a53028a]
 
 ---
