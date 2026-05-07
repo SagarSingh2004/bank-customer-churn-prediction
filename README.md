@@ -4,8 +4,11 @@ A comprehensive end-to-end machine learning project that predicts customer churn
 
 ---
 
+## Streamlit App Link
+
 [![Open Bank Churn Predictor App](https://img.shields.io/badge/Streamlit-App-green?style=for-the-badge)](https://bank-customer-churn-prediction-ghihtim5n7vehmyhrredgd.streamlit.app/)
 
+---
 
 ## 📌 Problem Statement
 
@@ -152,11 +155,11 @@ Output Layer (1 unit, Sigmoid activation)
 #### Performance Metrics
 | Model | Accuracy | Recall | Precision | AUC-ROC |
 |---|---|---|---|---|
-| Baseline | 87% | 48% | - | 0.86 |
-| Threshold Tuned | 85% | 67% | - | 0.85 |
+| Baseline | 87% | 48% | 79% | 0.86 |
+| Threshold Tuned | 85% | 67% | 59% | 0.85 |
 | Class Weighted | 80% | 73% | 51% | 0.82 |
-| SMOTE | 82% | 68% | - | 0.80 |
-| Hyperparameter Tuned | 86% | 43% | - | 0.86 |
+| SMOTE | 82% | 68% | 55% | 0.80 |
+| Hyperparameter Tuned | 86% | 43% | 80% | 0.86 |
 | **Final Optimized** | **80%** | **72%** | **51%** | **0.84** |
 
 #### Why Recall is Prioritized
